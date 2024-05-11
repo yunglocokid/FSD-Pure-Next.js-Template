@@ -1,0 +1,55 @@
+.homepage {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1rem;
+
+	height: 100vh;
+
+	color: #C7D0CC;
+
+	background: #000;
+
+	font-family: Roboto, sans-serif;
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+.path {
+	font-style: italic;
+}
+
+.font {
+	font-size: 5vw;
+}
+
+.hint {
+	padding: .5rem;
+
+	pointer-events: none;
+
+	border: rgb(199 208 204 / 5%) 1px solid;
+	border-radius: 15px;
+
+	font-size: 1vw;
+}
+
+.link {
+	transition: 0.3s;
+	animation: shine 4s linear infinite;
+
+	color: #000;
+	background: linear-gradient(to right, #020024 10%, #5b0979 40%, #5b0979 60%, #020024 80%);
+	background-clip: text;
+	background-size: 200% auto;
+
+	font-size: 5vw;
+	-webkit-text-fill-color: transparent;
+
+	@keyframes shine {
+		to {
+			background-position: 200% center;
+		}
+	}
+}
