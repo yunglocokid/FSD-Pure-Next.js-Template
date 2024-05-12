@@ -1,4 +1,4 @@
-import HomePage from "@pages/HomePage/ui/HomePage";
+import HomePage from "./ui/HomePage";
 
 export {
 	HomePage
