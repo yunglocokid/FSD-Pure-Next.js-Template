@@ -1,6 +1,6 @@
 {
 	"name": "fsd-nest-template",
-	"description": "Pure Next.js FSD template with jest, stylelint, prettier and eslint",
+	"description": "Pure Next.js FSD template with jest, react testing lib, stylelint, prettier and eslint",
 	"author": {
 		"name": "@yunglocokid (Dmitriy Bratchikov)",
 		"url": "https://github.com/yunglocokid"
