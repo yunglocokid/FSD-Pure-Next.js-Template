@@ -7,7 +7,7 @@
 
 	height: 100vh;
 
-	color: #C7D0CC;
+	color: #c7d0cc;
 
 	background: #000;
 
@@ -25,7 +25,7 @@
 }
 
 .hint {
-	padding: .5rem;
+	padding: 0.5rem;
 
 	pointer-events: none;
 
@@ -40,7 +40,13 @@
 	animation: shine 4s linear infinite;
 
 	color: #000;
-	background: linear-gradient(to right, #020024 10%, #5b0979 40%, #5b0979 60%, #020024 80%);
+	background: linear-gradient(
+		to right,
+		#020024 10%,
+		#5b0979 40%,
+		#5b0979 60%,
+		#020024 80%
+	);
 	background-clip: text;
 	background-size: 200% auto;
 

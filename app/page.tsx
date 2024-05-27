@@ -1,11 +1,9 @@
-import {HomePage} from "@pages/HomePage";
-
-
+import { HomePage } from "@pagesLayer/HomePage"
 
 export default function Home() {
 	return (
 		<main>
-			<HomePage/>
+			<HomePage />
 		</main>
 	)
 }

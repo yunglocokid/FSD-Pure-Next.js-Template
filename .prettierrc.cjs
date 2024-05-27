@@ -18,7 +18,7 @@ module.exports = {
 		"",
 		"<THIRD_PARTY_MODULES>",
 		"",
-		"^(@shared|@entities|@features|@widgets|@pages|@app)(/.*)$",
+		"^(@shared|@entities|@features|@widgets|@pagesLayer|@app)(/.*)$",
 		"",
 		"^(?!.*[.]scss$)[./].*$",
 		".scss$",
