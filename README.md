@@ -3,7 +3,7 @@
 ## IMPORTANT
 
 Do not delete the pages\* folder even if you are using App Router, deleting the pages folder
-will result in a [build error](https://t.me/feature_sliced/1/107414). 
+will result in a [build error](https://t.me/feature_sliced/1/107414).
 
 In WebStorm you can mark a directory as [excluded](https://www.jetbrains.com/help/webstorm/configuring-project-structure.html#content-root). After that, you won’t see it in shared files (like, for example, node_modules or .next)
 
