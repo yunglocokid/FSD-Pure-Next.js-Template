@@ -116,8 +116,7 @@
 					{
 						"from": ["shared"],
 						"disallow": ["app", "pages", "widgets", "features", "entities"],
-						"message":
-							"Shared module must not import upper layers (${dependency.type})"
+						"message": "Shared module must not import upper layers (${dependency.type})"
 					},
 					{
 						"from": ["entities"],
@@ -138,8 +137,7 @@
 					},
 					{
 						"from": ["features"],
-						"message":
-							"Feature must not import upper layers (${dependency.type})",
+						"message": "Feature must not import upper layers (${dependency.type})",
 						"disallow": ["app", "pages", "widgets"]
 					},
 					{
@@ -156,8 +154,7 @@
 					},
 					{
 						"from": ["widgets"],
-						"message":
-							"Feature must not import upper layers (${dependency.type})",
+						"message": "Feature must not import upper layers (${dependency.type})",
 						"disallow": ["app", "pages"]
 					},
 					{
