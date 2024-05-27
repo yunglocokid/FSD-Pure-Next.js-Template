@@ -1,5 +1,4 @@
 import Link from "next/link"
-
 import cls from "./HomePage.module.scss"
 
 const HomePage = () => {
@@ -16,8 +15,8 @@ const HomePage = () => {
 				</Link>
 			</p>
 			<pre className={cls.hint}>
-				You can edit <span className={cls.path}>{"src/pages/HomePage"}</span> to
-				start!
+				You can edit <span className={cls.path}>src/pages/HomePage</span> to
+				start {"<3"}!
 			</pre>
 		</div>
 	)
