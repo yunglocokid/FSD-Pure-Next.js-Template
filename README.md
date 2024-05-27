@@ -7,7 +7,7 @@ will result in a [build error](https://t.me/feature_sliced/1/107414).
 
 In WebStorm you can mark a directory as [excluded](https://www.jetbrains.com/help/webstorm/configuring-project-structure.html#content-root). After that, you won’t see it in shared files (like, for example, node_modules or .next)
 
-## ADDITIONAL SOLUTION TO THE PROBLEM
+## ADDITIONAL SOLUTION TO THE PROBLEM (NOT RECOMMENDED)
 
 If you don't like the empty "pages" folder in the project root, you can rename the pages layer (./src/pages)
 for example to "pagesLayer" and then delete the pages folder from the project root 
