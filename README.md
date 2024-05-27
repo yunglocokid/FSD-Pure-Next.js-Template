@@ -38,6 +38,7 @@ This template uses such development assistants
 - Eslint
 - Prettier
 - Stylelint
+- Jest
 
 If you don't need it, you can disable it at any time by removing the
 dependency from your _package.json_ and _.\*rc_ file.
