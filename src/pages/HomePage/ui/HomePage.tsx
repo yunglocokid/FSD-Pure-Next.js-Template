@@ -16,8 +16,8 @@ const HomePage = () => {
 				</Link>
 			</p>
 			<pre className={cls.hint} data-testid="hint-code">
-				You can edit <span className={cls.path}>src/pagesLayer/HomePage</span>{" "}
-				to start {"<3"}!<br />
+				You can edit <span className={cls.path}>src/pages/HomePage</span> to
+				start {"<3"}!<br />
 				<small className={cls.testHint}>
 					You can also test your application using Jest :D. Try it!
 				</small>

@@ -16,7 +16,7 @@
 		"",
 		"<THIRD_PARTY_MODULES>",
 		"",
-		"^(@shared|@entities|@features|@widgets|@pagesLayer|@app)(/.*)$",
+		"^(@shared|@entities|@features|@widgets|@pages|@app)(/.*)$",
 		"",
 		"^(?!.*[.]scss$)[./].*$",
 		".scss$",

@@ -1,19 +1,31 @@
 # Next.js + Feature-Sliced Design | Pure Template
 
+## IMPORTANT
+Do not delete the pages* folder even if you are using App Router, deleting the pages folder 
+will result in a [build error](https://t.me/feature_sliced/1/107414).
+
+## ADDITIONAL SOLUTION TO THE PROBLEM
+If you don't like the empty "pages" folder in the project root, you can rename the pages layer (./src/pages) 
+for example to "pagesLayer" and then delete the pages folder from the project root.
+
+**Use what you like best <3**
+
+---
+
 ## Folders description
 
-| Folder          | Description                                                                                                     |
-|-----------------|-----------------------------------------------------------------------------------------------------------------|
-| app             | Next App folder for [App Routing](https://nextjs.org/docs/app/building-your-application/routing#the-app-router) |
-| public          | Public files                                                                                                    |
-| src/app         | App FSD Layer                                                                                                   |
-| src/pagesLayer* | Pages FSD Layer                                                                                                 |
-| src/widgets     | Widgets FSD Layer                                                                                               |
-| src/features    | Features FSD Layer                                                                                              |
-| src/entities    | Entities FSD Layer                                                                                              |
-| src/shared      | Shared FSD Layer                                                                                                |
+| Folder       | Description                                                                                                     |
+|--------------|-----------------------------------------------------------------------------------------------------------------|
+| app          | Next App folder for [App Routing](https://nextjs.org/docs/app/building-your-application/routing#the-app-router) |
+| pages *      | Next Pages folder for [Pages Routing](https://nextjs.org/docs/pages)                                            |
+| public       | Public files                                                                                                    |
+| src/app      | App FSD Layer                                                                                                   |
+| src/pages    | Pages FSD Layer                                                                                                 |
+| src/widgets  | Widgets FSD Layer                                                                                               |
+| src/features | Features FSD Layer                                                                                              |
+| src/entities | Entities FSD Layer                                                                                              |
+| src/shared   | Shared FSD Layer                                                                                                |
 
-*&nbsp;**pagesLayer**, not **pages** because _*pages*_ is a reserved name for [Pages Router](https://nextjs.org/docs/pages) and an error occurs during [assembly](https://t.me/feature_sliced/1/107414).
 ## Remove junk _.gitkeep_ files
 
 ### UNIX
