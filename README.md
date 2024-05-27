@@ -10,7 +10,8 @@ In WebStorm you can mark a directory as [excluded](https://www.jetbrains.com/hel
 ## ADDITIONAL SOLUTION TO THE PROBLEM
 
 If you don't like the empty "pages" folder in the project root, you can rename the pages layer (./src/pages)
-for example to "pagesLayer" and then delete the pages folder from the project root.
+for example to "pagesLayer" and then delete the pages folder from the project root 
+(you will also have to change path aliases in tsconfig and similar).
 
 **Use what you like best <3**
 
